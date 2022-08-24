@@ -254,7 +254,7 @@ class HomeBody extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) => SignUpScreen()),
+                                        builder: (context) => SignUpScreen(title:'')),
                                   );
                                 },
                                 child: Text(

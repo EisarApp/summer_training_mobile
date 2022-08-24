@@ -527,7 +527,7 @@ _menu(context){
          dropdownValue = value;
        setState(() {});
      },
-     //value:'آلية التدريب'.toString(),
+        value:dropdownValue.toString(),
        items: employee.map((items) {
         return DropdownMenuItem(value:items,child: Text(items));
      }).toList(),

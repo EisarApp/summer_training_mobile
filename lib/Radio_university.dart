@@ -6,6 +6,8 @@ import 'package:eisar_app/signup_university.dart';
 import 'package:flutter/material.dart';
 import 'homepage_student.dart';
 import 'login_university.dart';
+import 'sign.dart';
+import 'signup_university.dart';
 
 class homepage3 extends StatelessWidget {
   @override
@@ -62,7 +64,7 @@ SizedBox(height:20),
           onPressed: () {
              Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => SignUpScreen()),
+              MaterialPageRoute(builder: (context) =>RegisterScreen()),
             );
           },
           child: Text(
